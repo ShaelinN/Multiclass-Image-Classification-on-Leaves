@@ -10,7 +10,7 @@ top-5 accuracy score is around 0.81
 check the **Segmentation_Results** folder to see samples of the segmentations
 # How To Use:
 ## quickly testing out the system:
-* Download the notebook and the split_by_purpose folder containing train.csv and test.csv. Store the notebook and the split_by_purpose folder in the root directory of the project (a folder of your choice)
+* Download the notebook and the **split_by_purpose** folder containing train.csv and test.csv. Store the notebook and the split_by_purpose folder in the root directory of the project (a folder of your choice)
 * Navigate to the section "Model Definition" and set the root dir value to be the root directory of this project within your system, i.e the folder housing the notebook and the split_by_purpose folder.
 * run the blocks of code in **Model Definition**. the upgrade scikit block is needed to access the top-k accuracy scores in Google Colab.
 * Run the blocks of code in the **Training** section. If root dir is set correctly, the program will identify the train file and use it. Make sure the notebook has access to the folder location (e.g in if storing in Google Drive, grant access to the drive to the notebook)
