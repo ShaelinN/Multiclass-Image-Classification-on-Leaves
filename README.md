@@ -10,9 +10,9 @@ top-5 accuracy score is around 0.81
 ## quickly testing out the system:
 * Download the notebook and the split_by_purpose folder containing train.csv and test.csv. Store the notebook and the split_by_purpose folder in the root directory of the project (a folder of your choice)
 * Navigate to the section "Model Definition" and set the root dir value to be the root directory of this project within your system, i.e the folder housing the notebook and the split_by_purpose folder.
-* run the blocks of code in model definition. the upgrade scikit block is needed to access the top-k accuracy scores in Google Colab.
-* Run the blocks of code in the Training section. If root dir is set correctly, the program will identify the train file and use it. Make sure the notebook has access to the folder location (e.g in if storing in Google Drive, grant access to the drive to the notebook)
-* You may now run the Evaluation code segments. These blocks will show test the classifier on the testing subset. 
+* run the blocks of code in **Model Definition**. the upgrade scikit block is needed to access the top-k accuracy scores in Google Colab.
+* Run the blocks of code in the **Training** section. If root dir is set correctly, the program will identify the train file and use it. Make sure the notebook has access to the folder location (e.g in if storing in Google Drive, grant access to the drive to the notebook)
+* You may now run the **Evaluation** code segments. These blocks will show test the classifier on the testing subset. 
 * You may also now make use of the user-facing function "classify()" in the very last section. Simply swap out the string value of leaf_image_path for the path of an image that is accessible to the notebook. running this section will then produce a result for any image handed to it (although results may not reflect the accuracy obtained by the evaluation phase, as this testing was performed on data that was comparable if not similar in nature to the training set, since they came from the same dataset)
 ## testing out from scratch:
 * download the notebook.
