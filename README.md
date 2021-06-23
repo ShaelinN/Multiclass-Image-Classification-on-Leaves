@@ -6,6 +6,8 @@ the model manages to achieve good segmentation
 top-1 accuracy score lies around 0.52
 
 top-5 accuracy score is around 0.81
+
+check the **Segmentation_Results** folder to see samples of the segmentations
 # How To Use:
 ## quickly testing out the system:
 * Download the notebook and the split_by_purpose folder containing train.csv and test.csv. Store the notebook and the split_by_purpose folder in the root directory of the project (a folder of your choice)
